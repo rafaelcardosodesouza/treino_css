@@ -10,7 +10,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 20%;
+            width: 15%;
         }
         .cabecalho{
             
@@ -18,34 +18,39 @@
         }
         .coluna1{
             text-align: center;
-            color: brown;
+            color: white;
             font-size: 20px;
         }
         .coluna2{
             text-align: center;
-            color: brown;
+            color: white;
             font-size: 15px;
         }
         .menu{
-            color: black;
+            color: whitesmoke;
             text-align: center;
         }
         .titulo{
             text-align: center;
             font-size: 30px;
+            color: aliceblue;
         }
         #corpo{
-            background-color: rgb(223, 219, 219);
+            background-image: url(fundo.jpg);
         }
         .direito{
             text-align: center;
             font: italic;
+            color: aliceblue;
         }
         .destaque{
             color: red;
         }
         .meio{
-            color: black;
+            color: greenyellow;
+        }
+        a{
+            color: white;
         }
     </style>
 </head>
@@ -53,19 +58,22 @@
     <div class="cabecalho"> <img class="logo" src="panda.png">
         <div class="titulo"> Esse é um treino para usar <span class="destaque">DIV</span></div>
         <div class="menu"> 
-            <p>MENU - SOBRE - CONTATO</p>
+            <p> <a href="#">MENU</a> - <a href="#">SOBRE</a> - <a href="#">CONTATO</a></p>
         </div>
+        <hr>
     </div>
     <div class="coluna1">
         <p class="primario"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel turpis pulvinar, facilisis massa at, aliquet nisl. Morbi porta ultricies placerat. Morbi ultricies nunc augue, finibus viverra erat finibus vel. Proin et sagittis sapien, ut bibendum nisi. Donec nec semper purus. In in nisl orci. Vivamus facilisis magna sapien, eu cursus leo convallis ut.</p>
 
-        <div class="meio"> testando divi no meio</div>
+        <div class="meio"> testando div no meio</div>
 
         <p calss="primario">Donec sit amet dolor varius, efficitur nulla sed, auctor diam. Aenean viverra dui tortor. Duis eget magna rhoncus, viverra arcu et, tempor mi. Donec sed venenatis massa. Duis sed lacinia lorem. Nullam condimentum nulla non mi elementum cursus. Suspendisse tristique lacus nec tempor dictum. Mauris consectetur cursus nulla id euismod. Cras viverra mollis consectetur. Nunc sem metus, pretium sit amet risus et, blandit dignissim mi.</p>
+        <hr>
     </div>
     <div class="coluna2">
         <p class="secundario"> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel turpis pulvinar, facilisis massa at, aliquet nisl. Morbi porta ultricies placerat. Morbi ultricies nunc augue, finibus viverra erat finibus vel. Proin et sagittis sapien, ut bibendum nisi. Donec nec semper purus. In in nisl orci. Vivamus facilisis magna sapien, eu cursus leo convallis ut.</p>
     </div>
+    <hr>
     <div class="direito">todos os <span class="destaque">direitos</span> reservados</div>
 </body>
 </html>
