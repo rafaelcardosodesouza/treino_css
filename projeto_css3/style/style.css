@@ -2,10 +2,62 @@ body{
     background-color: black;
 }
 .conteudo{
+    background-color: blueviolet;
     color: white;
     border: 1px solid red;
-    padding: 20px 60px;
-    width: 550px;
-    font-size: 25px;
-    margin: 15px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+.conteudo1{
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+.conteudo2{
+    background-color: rgb(228, 42, 150);
+    color: white;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+.conteudo3{
+    background-color: goldenrod;
+    color: white;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+.conteudo4{
+    background-color: rgb(33, 189, 46);
+    color: white;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+.conteudo5{
+    background-color: rgb(98, 100, 209);
+    color: white;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
 }
