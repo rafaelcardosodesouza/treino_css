@@ -1,12 +1,18 @@
 body{
     background-color: black;
 }
+.principal{
+    background-color: rgb(12, 19, 110);
+    border: 3px solid springgreen;
+    width: 1200px;
+    height: 980px;
+}
 .conteudo{
     background-color: blueviolet;
     color: white;
     border: 1px solid red;
     width: 150px;
-    height: 150px;
+    height: 300px;
     float: left;
     padding: 20px;
     margin: 10px;
@@ -60,4 +66,7 @@ body{
     float: left;
     padding: 20px;
     margin: 10px;
+}
+.clear{
+    clear: left;
 }
