@@ -1,4 +1,4 @@
-/**body{ //daqui para baixo é relacionado a pagina index
+body{ 
     background-color: black;
 }
 .principal{
@@ -12,7 +12,7 @@
     color: white;
     border: 1px solid red;
     width: 150px;
-    height: 300px;
+    height: 150px;
     float: left;
     padding: 20px;
     margin: 10px;
@@ -69,7 +69,9 @@
 }
 .clear{
     clear: left;
-}**/
+}
+
+/*
 body{
     background-color: black;
 }
@@ -130,4 +132,4 @@ body{
     background-color: darkslategrey;
     width: 1200px;
     height: 600px;
-}
+} **/
