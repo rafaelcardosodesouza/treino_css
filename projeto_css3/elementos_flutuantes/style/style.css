@@ -17,21 +17,12 @@ img{
     width: 250px;
     border: 3px solid #cfc5c5;
 }
-.coluna{
-    width: 120px;
-    height: 800px;
-    float: left;
-}
-.coluna2{
-    width: 120px;
-    height: 800px;
-    float: right;
-}
 .s{
     color: black;
     text-align: center;
     font-size: 55px;
     text-shadow: 5px 5px 10px #858d85;
+    
 }
 body{
     background-image: url(../img/fundo2.png);
@@ -53,7 +44,7 @@ nav{
     width: 614px;
     display: flex;
     position: static;
-    background-color: #dddddd;
+    background-color: #c7c0c0;
     clear: both;
     margin-left: 26%;
     margin-top: -20px;
@@ -78,4 +69,17 @@ nav li {
 a:hover{
     color: black;
     font-size: 22px;
+}
+#conteudo{
+    position: relative;
+    left: 10%;
+}
+.inferior{
+    clear: both;
+    position: fixed;
+    width: 100px;
+    left: 90%;
+    top: 82%;
+    font-size: 15px;
+    border: 3px double silver;
 }
